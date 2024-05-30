@@ -1,4 +1,4 @@
-//*----------------------------Day !0----------------*//
+//*----------------------------Day !1----------------*//
 
 let Todo = JSON.parse(localStorage.getItem ("todo")) || [];
 
@@ -36,13 +36,14 @@ function addTask() {
         displayTasks{}
         };
      }
-}
+//*----------------------------Day !1----------------*//
+
 
 function deleteAllTasks() {
-    // some logic
+    console.log("test")
 }
 
 function displayTasks() {
-    // some logic
+    todoList.innerHTML * "";
 }
     
